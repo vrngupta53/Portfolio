@@ -1,0 +1,248 @@
+body{
+	font-family: 'Slabo 27px', serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; 
+}
+
+@keyframes bgChange {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes fadeIn{
+	from{opacity: 0}
+	to{opacity : 1}
+	
+}
+
+.parichay{
+	width: 100vw;
+	height: 100vh;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+	margin: 0;
+	padding: 0;
+	animation-name: bgChange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+#intro{
+	font-size: 2.5vw;
+	text-align: center;
+	padding-top: 40vh;
+	margin: 0;
+}
+
+#name{
+	height: 50vh;
+	font-size: 5vw;
+	text-align: center;
+	margin: 0;
+}
+
+.college{
+	display: flex;
+	margin : 5vw;
+
+}
+#img-1{
+	display: flex;
+	width: 50%;
+}
+
+#thomso{
+	display: flex;
+	width: 100%;
+}
+
+#img-desc-1{
+	display:flex;
+	width:50%;
+	font-size: 2vw;
+	padding: 1vw;
+	margin: 1vw;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+.sds{
+	display: flex;
+	margin: 5vw;
+}
+#img-2{
+	display: flex;
+	height: auto;
+	width: 50%;
+	margin: 1vw;
+}
+
+#img-desc-2{
+	display: flex;
+	font-size: 2vw;
+	padding: 1vw;
+	width: 50%;	
+	margin: 1vw;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+#sdsimg{
+	display: flex;
+	width: 100%;
+	margin: 1vw;
+}
+
+.codeforces{
+	display: flex;
+	margin: 5vw;
+
+}
+
+#img-desc-3{
+	display: flex;
+	width: 50%;
+	font-size: 2vw;
+	margin: 1vw; 
+	padding: 1vw;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+}
+
+#img-3{
+	display: flex;
+	height: auto;
+	width: 50%;
+	margin: 1vw;
+}
+
+#codeforces{
+	display: flex;
+	width:100%;
+	height: auto;
+	margin: 1vw;
+}
+
+footer{
+	color: white;
+	font-size: 2.5vw;
+	background-color: black;
+	text-align: center;
+}
+
+.images{
+	display: flex;
+	justify-content: center;
+	margin:auto;
+	background-color: black;
+}
+
+#github{
+	height: 5vw;
+	width: auto;
+	margin: 1vw;
+}
+
+#gmail{
+	height: 6vw;
+	width: auto;
+	margin: 0.5vw;
+}
+
+#fb{
+	height: 5vw;
+	width: auto;
+	margin: 1vw;
+}
+@media only screen and (max-width : 1200px){
+	#intro{
+		font-size: 4vw;
+	}
+
+	#name{
+		font-size: 8vw;
+	}
+	.college{
+		flex-direction: column;
+	}
+
+	#img-desc-1{
+		width: 100%;
+		padding: 0.5vw;
+		font-size: 3.5vw;
+	}
+
+	#img-1{
+		display: flex;
+		width: 100%
+	}
+
+	#thomso{
+		width: 100%;
+	}
+
+	.sds{
+		flex-direction: column-reverse;
+	}
+
+	#img-desc-2{
+		width: 100%;
+		padding: 0.5vw;
+		font-size: 3.5vw;
+	}
+
+	#img-2{
+		width:100%;
+	}
+
+	#sdsimg{
+		width:100%;
+	}
+
+	.codeforces{
+		flex-direction: column;
+	}
+
+	#img-desc-3{
+		width: 100%;
+		padding: 0.5vw;
+		font-size: 3.5vw;
+	}
+
+	#codeforces{
+		width: 100%;
+	}
+
+	#img-3{
+		width: 100%;
+	}
+
+	footer{
+		height: 20vw;
+		font-size: 8vw;
+	}
+
+	#github{
+	height: 8vw;
+	width: auto;
+	margin: 1.6vw;
+}
+
+	#gmail{
+	height: 9.6vw;
+	width: auto;
+	margin: 0.8vw;
+}
+
+	#fb{
+	height: 8vw;
+	width: auto;
+	margin: 1.6vw;
+}
+}
